@@ -1,0 +1,22 @@
+version: 2.0
+shards:
+  backtracer:
+    git: https://github.com/sija/backtracer.cr.git
+    version: 1.2.2
+
+  dotenv:
+    git: https://github.com/gdotdesign/cr-dotenv.git
+    version: 1.0.0+git.commit.cb70a7111043fa37e09dce3e4b6db17fd5c6ce54
+
+  exception_page:
+    git: https://github.com/crystal-loot/exception_page.git
+    version: 0.3.0
+
+  kemal:
+    git: https://github.com/kemalcr/kemal.git
+    version: 1.3.0+git.commit.8ebe171279a8fff80dd4b207541062731a5eda13
+
+  radix:
+    git: https://github.com/luislavena/radix.git
+    version: 0.4.1
+

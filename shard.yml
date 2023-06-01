@@ -1,0 +1,21 @@
+name: bot_example_crystal
+version: 0.1.0
+
+authors:
+  - JoystickTV Support <support@joystick.tv>
+
+targets:
+  bot:
+    main: src/main.cr
+
+crystal: ">= 1.7.3"
+
+license: MIT
+
+dependencies:
+  dotenv:
+    github: gdotdesign/cr-dotenv
+    branch: master
+  kemal:
+    github: kemalcr/kemal
+    branch: master
